@@ -1,0 +1,858 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'D:\\NodeJs\\node.exe',
+1 verbose cli   'D:\\NodeJs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   '--save-dev',
+1 verbose cli   'vue' ]
+2 info using npm@2.15.8
+3 info using node@v4.4.7
+4 verbose install initial load of D:\NodeJs\WebPackTest\package.json
+5 verbose installManyTop reading scoped package data from D:\NodeJs\WebPackTest\node_modules\align-text\package.json
+6 verbose installManyTop reading scoped package data from D:\NodeJs\WebPackTest\node_modules\amdefine\package.json
+7 verbose installManyTop reading scoped package data from D:\NodeJs\WebPackTest\node_modules\ansi-regex\package.json
+8 verbose installManyTop reading scoped package data from D:\NodeJs\WebPackTest\node_modules\ansi-styles\package.json
+9 verbose installManyTop reading scoped package data from D:\NodeJs\WebPackTest\node_modules\asap\package.json
+10 verbose installManyTop reading scoped package data from D:\NodeJs\WebPackTest\node_modules\ast-types\package.json
+11 verbose installManyTop reading scoped package data from D:\NodeJs\WebPackTest\node_modules\async\package.json
+12 verbose installManyTop reading scoped package data from D:\NodeJs\WebPackTest\node_modules\autoprefixer\package.json
+13 verbose installManyTop reading scoped package data from D:\NodeJs\WebPackTest\node_modules\babel-core\package.json
+14 verbose installManyTop reading scoped package data from D:\NodeJs\WebPackTest\node_modules\babel-loader\package.json
+15 verbose installManyTop reading scoped package data from D:\NodeJs\WebPackTest\node_modules\babel-plugin-react-transform\package.json
+16 verbose installManyTop reading scoped package data from D:\NodeJs\WebPackTest\node_modules\babel-plugin-transform-runtime\package.json
+17 verbose installManyTop reading scoped package data from D:\NodeJs\WebPackTest\node_modules\babel-preset-es2015\package.json
+18 verbose installManyTop reading scoped package data from D:\NodeJs\WebPackTest\node_modules\babel-preset-react\package.json
+19 verbose installManyTop reading scoped package data from D:\NodeJs\WebPackTest\node_modules\babel-preset-stage-0\package.json
+20 verbose installManyTop reading scoped package data from D:\NodeJs\WebPackTest\node_modules\babel-runtime\package.json
+21 verbose installManyTop reading scoped package data from D:\NodeJs\WebPackTest\node_modules\big.js\package.json
+22 verbose installManyTop reading scoped package data from D:\NodeJs\WebPackTest\node_modules\bluebird\package.json
+23 verbose installManyTop reading scoped package data from D:\NodeJs\WebPackTest\node_modules\body-parser\package.json
+24 verbose installManyTop reading scoped package data from D:\NodeJs\WebPackTest\node_modules\boolbase\package.json
+25 verbose installManyTop reading scoped package data from D:\NodeJs\WebPackTest\node_modules\camel-case\package.json
+26 verbose installManyTop reading scoped package data from D:\NodeJs\WebPackTest\node_modules\camelcase\package.json
+27 verbose installManyTop reading scoped package data from D:\NodeJs\WebPackTest\node_modules\center-align\package.json
+28 verbose installManyTop reading scoped package data from D:\NodeJs\WebPackTest\node_modules\chalk\package.json
+29 verbose installManyTop reading scoped package data from D:\NodeJs\WebPackTest\node_modules\change-case\package.json
+30 verbose installManyTop reading scoped package data from D:\NodeJs\WebPackTest\node_modules\clean-css\package.json
+31 verbose installManyTop reading scoped package data from D:\NodeJs\WebPackTest\node_modules\cliui\package.json
+32 verbose installManyTop reading scoped package data from D:\NodeJs\WebPackTest\node_modules\commander\package.json
+33 verbose installManyTop reading scoped package data from D:\NodeJs\WebPackTest\node_modules\consolidate\package.json
+34 verbose installManyTop reading scoped package data from D:\NodeJs\WebPackTest\node_modules\constant-case\package.json
+35 verbose installManyTop reading scoped package data from D:\NodeJs\WebPackTest\node_modules\cookie-parser\package.json
+36 verbose installManyTop reading scoped package data from D:\NodeJs\WebPackTest\node_modules\core-js\package.json
+37 verbose installManyTop reading scoped package data from D:\NodeJs\WebPackTest\node_modules\core-util-is\package.json
+38 verbose installManyTop reading scoped package data from D:\NodeJs\WebPackTest\node_modules\css-loader\package.json
+39 verbose installManyTop reading scoped package data from D:\NodeJs\WebPackTest\node_modules\css-what\package.json
+40 verbose installManyTop reading scoped package data from D:\NodeJs\WebPackTest\node_modules\de-indent\package.json
+41 verbose installManyTop reading scoped package data from D:\NodeJs\WebPackTest\node_modules\debug\package.json
+42 verbose installManyTop reading scoped package data from D:\NodeJs\WebPackTest\node_modules\decamelize\package.json
+43 verbose installManyTop reading scoped package data from D:\NodeJs\WebPackTest\node_modules\dom-serializer\package.json
+44 verbose installManyTop reading scoped package data from D:\NodeJs\WebPackTest\node_modules\domelementtype\package.json
+45 verbose installManyTop reading scoped package data from D:\NodeJs\WebPackTest\node_modules\domhandler\package.json
+46 verbose installManyTop reading scoped package data from D:\NodeJs\WebPackTest\node_modules\domutils\package.json
+47 verbose installManyTop reading scoped package data from D:\NodeJs\WebPackTest\node_modules\dot-case\package.json
+48 verbose installManyTop reading scoped package data from D:\NodeJs\WebPackTest\node_modules\ejs\package.json
+49 verbose installManyTop reading scoped package data from D:\NodeJs\WebPackTest\node_modules\emojis-list\package.json
+50 verbose installManyTop reading scoped package data from D:\NodeJs\WebPackTest\node_modules\encoding\package.json
+51 verbose installManyTop reading scoped package data from D:\NodeJs\WebPackTest\node_modules\entities\package.json
+52 verbose installManyTop reading scoped package data from D:\NodeJs\WebPackTest\node_modules\es6-templates\package.json
+53 verbose installManyTop reading scoped package data from D:\NodeJs\WebPackTest\node_modules\escape-string-regexp\package.json
+54 verbose installManyTop reading scoped package data from D:\NodeJs\WebPackTest\node_modules\esprima\package.json
+55 verbose installManyTop reading scoped package data from D:\NodeJs\WebPackTest\node_modules\express\package.json
+56 verbose installManyTop reading scoped package data from D:\NodeJs\WebPackTest\node_modules\extract-text-webpack-plugin\package.json
+57 verbose installManyTop reading scoped package data from D:\NodeJs\WebPackTest\node_modules\fastparse\package.json
+58 verbose installManyTop reading scoped package data from D:\NodeJs\WebPackTest\node_modules\fbjs\package.json
+59 verbose installManyTop reading scoped package data from D:\NodeJs\WebPackTest\node_modules\file-loader\package.json
+60 verbose installManyTop reading scoped package data from D:\NodeJs\WebPackTest\node_modules\flatten\package.json
+61 verbose installManyTop reading scoped package data from D:\NodeJs\WebPackTest\node_modules\graceful-readlink\package.json
+62 verbose installManyTop reading scoped package data from D:\NodeJs\WebPackTest\node_modules\has-ansi\package.json
+63 verbose installManyTop reading scoped package data from D:\NodeJs\WebPackTest\node_modules\has-flag\package.json
+64 verbose installManyTop reading scoped package data from D:\NodeJs\WebPackTest\node_modules\hash-sum\package.json
+65 verbose installManyTop reading scoped package data from D:\NodeJs\WebPackTest\node_modules\he\package.json
+66 verbose installManyTop reading scoped package data from D:\NodeJs\WebPackTest\node_modules\header-case\package.json
+67 verbose installManyTop reading scoped package data from D:\NodeJs\WebPackTest\node_modules\html-loader\package.json
+68 verbose installManyTop reading scoped package data from D:\NodeJs\WebPackTest\node_modules\html-minifier\package.json
+69 verbose installManyTop reading scoped package data from D:\NodeJs\WebPackTest\node_modules\html-webpack-plugin\package.json
+70 verbose installManyTop reading scoped package data from D:\NodeJs\WebPackTest\node_modules\iconv-lite\package.json
+71 verbose installManyTop reading scoped package data from D:\NodeJs\WebPackTest\node_modules\indexes-of\package.json
+72 verbose installManyTop reading scoped package data from D:\NodeJs\WebPackTest\node_modules\inherits\package.json
+73 verbose installManyTop reading scoped package data from D:\NodeJs\WebPackTest\node_modules\is-buffer\package.json
+74 verbose installManyTop reading scoped package data from D:\NodeJs\WebPackTest\node_modules\is-lower-case\package.json
+75 verbose installManyTop reading scoped package data from D:\NodeJs\WebPackTest\node_modules\is-stream\package.json
+76 verbose installManyTop reading scoped package data from D:\NodeJs\WebPackTest\node_modules\is-upper-case\package.json
+77 verbose installManyTop reading scoped package data from D:\NodeJs\WebPackTest\node_modules\isarray\package.json
+78 verbose installManyTop reading scoped package data from D:\NodeJs\WebPackTest\node_modules\isomorphic-fetch\package.json
+79 verbose installManyTop reading scoped package data from D:\NodeJs\WebPackTest\node_modules\js-base64\package.json
+80 verbose installManyTop reading scoped package data from D:\NodeJs\WebPackTest\node_modules\js-tokens\package.json
+81 verbose installManyTop reading scoped package data from D:\NodeJs\WebPackTest\node_modules\json-loader\package.json
+82 verbose installManyTop reading scoped package data from D:\NodeJs\WebPackTest\node_modules\json5\package.json
+83 verbose installManyTop reading scoped package data from D:\NodeJs\WebPackTest\node_modules\kind-of\package.json
+84 verbose installManyTop reading scoped package data from D:\NodeJs\WebPackTest\node_modules\lazy-cache\package.json
+85 verbose installManyTop reading scoped package data from D:\NodeJs\WebPackTest\node_modules\loader-utils\package.json
+86 verbose installManyTop reading scoped package data from D:\NodeJs\WebPackTest\node_modules\longest\package.json
+87 verbose installManyTop reading scoped package data from D:\NodeJs\WebPackTest\node_modules\loose-envify\package.json
+88 verbose installManyTop reading scoped package data from D:\NodeJs\WebPackTest\node_modules\lower-case\package.json
+89 verbose installManyTop reading scoped package data from D:\NodeJs\WebPackTest\node_modules\lower-case-first\package.json
+90 verbose installManyTop reading scoped package data from D:\NodeJs\WebPackTest\node_modules\lru-cache\package.json
+91 verbose installManyTop reading scoped package data from D:\NodeJs\WebPackTest\node_modules\morgan\package.json
+92 verbose installManyTop reading scoped package data from D:\NodeJs\WebPackTest\node_modules\ncname\package.json
+93 verbose installManyTop reading scoped package data from D:\NodeJs\WebPackTest\node_modules\no-case\package.json
+94 verbose installManyTop reading scoped package data from D:\NodeJs\WebPackTest\node_modules\node-fetch\package.json
+95 verbose installManyTop reading scoped package data from D:\NodeJs\WebPackTest\node_modules\nth-check\package.json
+96 verbose installManyTop reading scoped package data from D:\NodeJs\WebPackTest\node_modules\object-assign\package.json
+97 verbose installManyTop reading scoped package data from D:\NodeJs\WebPackTest\node_modules\param-case\package.json
+98 verbose installManyTop reading scoped package data from D:\NodeJs\WebPackTest\node_modules\parse5\package.json
+99 verbose installManyTop reading scoped package data from D:\NodeJs\WebPackTest\node_modules\pascal-case\package.json
+100 verbose installManyTop reading scoped package data from D:\NodeJs\WebPackTest\node_modules\path-case\package.json
+101 verbose installManyTop reading scoped package data from D:\NodeJs\WebPackTest\node_modules\postcss\package.json
+102 verbose installManyTop reading scoped package data from D:\NodeJs\WebPackTest\node_modules\postcss-loader\package.json
+103 verbose installManyTop reading scoped package data from D:\NodeJs\WebPackTest\node_modules\postcss-selector-parser\package.json
+104 verbose installManyTop reading scoped package data from D:\NodeJs\WebPackTest\node_modules\private\package.json
+105 verbose installManyTop reading scoped package data from D:\NodeJs\WebPackTest\node_modules\promise\package.json
+106 verbose installManyTop reading scoped package data from D:\NodeJs\WebPackTest\node_modules\react\package.json
+107 verbose installManyTop reading scoped package data from D:\NodeJs\WebPackTest\node_modules\react-dom\package.json
+108 verbose installManyTop reading scoped package data from D:\NodeJs\WebPackTest\node_modules\react-transform-hmr\package.json
+109 verbose installManyTop reading scoped package data from D:\NodeJs\WebPackTest\node_modules\readable-stream\package.json
+110 verbose installManyTop reading scoped package data from D:\NodeJs\WebPackTest\node_modules\recast\package.json
+111 verbose installManyTop reading scoped package data from D:\NodeJs\WebPackTest\node_modules\relateurl\package.json
+112 verbose installManyTop reading scoped package data from D:\NodeJs\WebPackTest\node_modules\repeat-string\package.json
+113 verbose installManyTop reading scoped package data from D:\NodeJs\WebPackTest\node_modules\right-align\package.json
+114 verbose installManyTop reading scoped package data from D:\NodeJs\WebPackTest\node_modules\sentence-case\package.json
+115 verbose installManyTop reading scoped package data from D:\NodeJs\WebPackTest\node_modules\serve-favicon\package.json
+116 verbose installManyTop reading scoped package data from D:\NodeJs\WebPackTest\node_modules\snake-case\package.json
+117 verbose installManyTop reading scoped package data from D:\NodeJs\WebPackTest\node_modules\source-map\package.json
+118 verbose installManyTop reading scoped package data from D:\NodeJs\WebPackTest\node_modules\string_decoder\package.json
+119 verbose installManyTop reading scoped package data from D:\NodeJs\WebPackTest\node_modules\strip-ansi\package.json
+120 verbose installManyTop reading scoped package data from D:\NodeJs\WebPackTest\node_modules\style-loader\package.json
+121 verbose installManyTop reading scoped package data from D:\NodeJs\WebPackTest\node_modules\supports-color\package.json
+122 verbose installManyTop reading scoped package data from D:\NodeJs\WebPackTest\node_modules\swap-case\package.json
+123 verbose installManyTop reading scoped package data from D:\NodeJs\WebPackTest\node_modules\through\package.json
+124 verbose installManyTop reading scoped package data from D:\NodeJs\WebPackTest\node_modules\title-case\package.json
+125 verbose installManyTop reading scoped package data from D:\NodeJs\WebPackTest\node_modules\ua-parser-js\package.json
+126 verbose installManyTop reading scoped package data from D:\NodeJs\WebPackTest\node_modules\uglify-js\package.json
+127 verbose installManyTop reading scoped package data from D:\NodeJs\WebPackTest\node_modules\uglify-to-browserify\package.json
+128 verbose installManyTop reading scoped package data from D:\NodeJs\WebPackTest\node_modules\uniq\package.json
+129 verbose installManyTop reading scoped package data from D:\NodeJs\WebPackTest\node_modules\upper-case\package.json
+130 verbose installManyTop reading scoped package data from D:\NodeJs\WebPackTest\node_modules\upper-case-first\package.json
+131 verbose installManyTop reading scoped package data from D:\NodeJs\WebPackTest\node_modules\url-loader\package.json
+132 verbose installManyTop reading scoped package data from D:\NodeJs\WebPackTest\node_modules\vue\package.json
+133 verbose installManyTop reading scoped package data from D:\NodeJs\WebPackTest\node_modules\vue-hot-reload-api\package.json
+134 verbose installManyTop reading scoped package data from D:\NodeJs\WebPackTest\node_modules\vue-html-loader\package.json
+135 verbose installManyTop reading scoped package data from D:\NodeJs\WebPackTest\node_modules\vue-loader\package.json
+136 verbose installManyTop reading scoped package data from D:\NodeJs\WebPackTest\node_modules\vue-resource\package.json
+137 verbose installManyTop reading scoped package data from D:\NodeJs\WebPackTest\node_modules\vue-router\package.json
+138 verbose installManyTop reading scoped package data from D:\NodeJs\WebPackTest\node_modules\vue-style-loader\package.json
+139 verbose installManyTop reading scoped package data from D:\NodeJs\WebPackTest\node_modules\vue-template-validator\package.json
+140 verbose installManyTop reading scoped package data from D:\NodeJs\WebPackTest\node_modules\webpack\package.json
+141 verbose installManyTop reading scoped package data from D:\NodeJs\WebPackTest\node_modules\webpack-dev-server\package.json
+142 verbose installManyTop reading scoped package data from D:\NodeJs\WebPackTest\node_modules\whatwg-fetch\package.json
+143 verbose installManyTop reading scoped package data from D:\NodeJs\WebPackTest\node_modules\window-size\package.json
+144 verbose installManyTop reading scoped package data from D:\NodeJs\WebPackTest\node_modules\wordwrap\package.json
+145 verbose installManyTop reading scoped package data from D:\NodeJs\WebPackTest\node_modules\xml-char-classes\package.json
+146 verbose installManyTop reading scoped package data from D:\NodeJs\WebPackTest\node_modules\yargs\package.json
+147 info package.json async@0.2.10 No license field.
+148 info package.json css-what@2.1.0 license should be a valid SPDX license expression
+149 info package.json domhandler@2.1.0 No license field.
+150 info package.json domelementtype@1.3.0 No license field.
+151 info package.json domutils@1.5.1 No license field.
+152 info package.json es6-templates@0.2.3 license should be a valid SPDX license expression
+153 info package.json entities@1.1.1 license should be a valid SPDX license expression
+154 info package.json js-base64@2.1.9 license should be a valid SPDX license expression
+155 info package.json longest@1.0.1 license should be a valid SPDX license expression
+156 info package.json nth-check@1.0.1 license should be a valid SPDX license expression
+157 info package.json string_decoder@0.10.31 string_decoder is also the name of a node core module.
+158 info package.json vue-html-loader@1.2.3 No license field.
+159 info package.json wordwrap@0.0.2 license should be a valid SPDX license expression
+160 info package.json window-size@0.1.0 No license field.
+161 info package.json vue-router@2.0.2 No repository field.
+162 verbose readDependencies loading dependencies from D:\NodeJs\WebPackTest\package.json
+163 verbose install vue is installed as 2.0.7
+164 silly cache add args [ 'vue@^2.0.1', null ]
+165 verbose cache add spec vue@^2.0.1
+166 silly cache add parsed spec Result {
+166 silly cache add   raw: 'vue@^2.0.1',
+166 silly cache add   scope: null,
+166 silly cache add   name: 'vue',
+166 silly cache add   rawSpec: '^2.0.1',
+166 silly cache add   spec: '>=2.0.1 <3.0.0',
+166 silly cache add   type: 'range' }
+167 silly addNamed vue@>=2.0.1 <3.0.0
+168 verbose addNamed ">=2.0.1 <3.0.0" is a valid semver range for vue
+169 silly addNameRange { name: 'vue', range: '>=2.0.1 <3.0.0', hasData: false }
+170 silly mapToRegistry name vue
+171 silly mapToRegistry using default registry
+172 silly mapToRegistry registry https://registry.npmjs.org/
+173 silly mapToRegistry data Result {
+173 silly mapToRegistry   raw: 'vue',
+173 silly mapToRegistry   scope: null,
+173 silly mapToRegistry   name: 'vue',
+173 silly mapToRegistry   rawSpec: '',
+173 silly mapToRegistry   spec: 'latest',
+173 silly mapToRegistry   type: 'tag' }
+174 silly mapToRegistry uri https://registry.npmjs.org/vue
+175 verbose addNameRange registry:https://registry.npmjs.org/vue not in flight; fetching
+176 verbose request uri https://registry.npmjs.org/vue
+177 verbose request no auth needed
+178 info attempt registry request try #1 at 19:04:02
+179 verbose request id 41a6287677c481e0
+180 verbose etag W/"582daff8-628a6"
+181 verbose lastModified Thu, 17 Nov 2016 13:26:16 GMT
+182 http request GET https://registry.npmjs.org/vue
+183 http 304 https://registry.npmjs.org/vue
+184 verbose headers { date: 'Sat, 19 Nov 2016 11:03:57 GMT',
+184 verbose headers   via: '1.1 varnish',
+184 verbose headers   'cache-control': 'max-age=300',
+184 verbose headers   etag: 'W/"582daff8-628a6"',
+184 verbose headers   age: '66',
+184 verbose headers   connection: 'keep-alive',
+184 verbose headers   'x-served-by': 'cache-lcy1132-LCY',
+184 verbose headers   'x-cache': 'HIT',
+184 verbose headers   'x-cache-hits': '1',
+184 verbose headers   'x-timer': 'S1479553437.302325,VS0,VE0',
+184 verbose headers   vary: 'Accept-Encoding' }
+185 silly get cb [ 304,
+185 silly get   { date: 'Sat, 19 Nov 2016 11:03:57 GMT',
+185 silly get     via: '1.1 varnish',
+185 silly get     'cache-control': 'max-age=300',
+185 silly get     etag: 'W/"582daff8-628a6"',
+185 silly get     age: '66',
+185 silly get     connection: 'keep-alive',
+185 silly get     'x-served-by': 'cache-lcy1132-LCY',
+185 silly get     'x-cache': 'HIT',
+185 silly get     'x-cache-hits': '1',
+185 silly get     'x-timer': 'S1479553437.302325,VS0,VE0',
+185 silly get     vary: 'Accept-Encoding' } ]
+186 verbose etag https://registry.npmjs.org/vue from cache
+187 verbose get saving vue to C:\Users\WangCK\AppData\Roaming\npm-cache\registry.npmjs.org\vue\.cache.json
+188 verbose correctMkdir C:\Users\WangCK\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+189 silly addNameRange number 2 { name: 'vue', range: '>=2.0.1 <3.0.0', hasData: true }
+190 silly addNameRange versions [ 'vue',
+190 silly addNameRange   [ '0.0.0',
+190 silly addNameRange     '0.6.0',
+190 silly addNameRange     '0.7.0',
+190 silly addNameRange     '0.7.1',
+190 silly addNameRange     '0.7.3',
+190 silly addNameRange     '0.7.4',
+190 silly addNameRange     '0.7.5',
+190 silly addNameRange     '0.7.6',
+190 silly addNameRange     '0.8.0',
+190 silly addNameRange     '0.8.1',
+190 silly addNameRange     '0.8.2',
+190 silly addNameRange     '0.8.3',
+190 silly addNameRange     '0.8.4',
+190 silly addNameRange     '0.8.6',
+190 silly addNameRange     '0.8.7',
+190 silly addNameRange     '0.8.8',
+190 silly addNameRange     '0.9.0',
+190 silly addNameRange     '0.9.1',
+190 silly addNameRange     '0.9.2',
+190 silly addNameRange     '0.9.3',
+190 silly addNameRange     '0.10.0',
+190 silly addNameRange     '0.10.1',
+190 silly addNameRange     '0.10.2',
+190 silly addNameRange     '0.10.3',
+190 silly addNameRange     '0.10.4',
+190 silly addNameRange     '0.10.5',
+190 silly addNameRange     '0.10.6',
+190 silly addNameRange     '0.11.0-rc',
+190 silly addNameRange     '0.11.0-rc2',
+190 silly addNameRange     '0.11.0-rc3',
+190 silly addNameRange     '0.11.0',
+190 silly addNameRange     '0.11.1',
+190 silly addNameRange     '0.11.2',
+190 silly addNameRange     '0.11.3',
+190 silly addNameRange     '0.11.4',
+190 silly addNameRange     '0.11.5',
+190 silly addNameRange     '0.11.6',
+190 silly addNameRange     '0.11.7',
+190 silly addNameRange     '0.11.8',
+190 silly addNameRange     '0.11.9',
+190 silly addNameRange     '0.11.10',
+190 silly addNameRange     '0.12.0-beta1',
+190 silly addNameRange     '0.12.0-beta2',
+190 silly addNameRange     '0.12.0-beta3',
+190 silly addNameRange     '0.12.0-beta4',
+190 silly addNameRange     '0.12.0-beta5',
+190 silly addNameRange     '0.12.0-rc',
+190 silly addNameRange     '0.12.0-rc2',
+190 silly addNameRange     '0.12.0',
+190 silly addNameRange     '0.12.0-csp',
+190 silly addNameRange     '0.12.1',
+190 silly addNameRange     '0.12.1-csp',
+190 silly addNameRange     '0.12.1-csp.1',
+190 silly addNameRange     '0.12.1-csp.2',
+190 silly addNameRange     '0.12.2',
+190 silly addNameRange     '0.12.3',
+190 silly addNameRange     '0.12.4',
+190 silly addNameRange     '0.12.5',
+190 silly addNameRange     '0.12.5-csp',
+190 silly addNameRange     '0.12.6',
+190 silly addNameRange     '0.12.6-csp',
+190 silly addNameRange     '0.12.7',
+190 silly addNameRange     '0.12.7-csp',
+190 silly addNameRange     '0.12.8',
+190 silly addNameRange     '0.12.8-csp',
+190 silly addNameRange     '0.12.9',
+190 silly addNameRange     '0.12.9-csp',
+190 silly addNameRange     '0.12.10',
+190 silly addNameRange     '0.12.10-csp',
+190 silly addNameRange     '0.12.11',
+190 silly addNameRange     '0.12.11-csp',
+190 silly addNameRange     '0.12.12',
+190 silly addNameRange     '0.12.12-csp',
+190 silly addNameRange     '1.0.0-alpha.1',
+190 silly addNameRange     '1.0.0-alpha.2',
+190 silly addNameRange     '0.12.13',
+190 silly addNameRange     '0.12.13-csp',
+190 silly addNameRange     '1.0.0-alpha.3',
+190 silly addNameRange     '0.12.14',
+190 silly addNameRange     '0.12.14-csp',
+190 silly addNameRange     '1.0.0-alpha.4',
+190 silly addNameRange     '0.12.15',
+190 silly addNameRange     '0.12.15-csp',
+190 silly addNameRange     '1.0.0-alpha.5',
+190 silly addNameRange     '1.0.0-beta.1',
+190 silly addNameRange     '0.12.16',
+190 silly addNameRange     '0.12.16-csp',
+190 silly addNameRange     '1.0.0-alpha.6',
+190 silly addNameRange     '1.0.0-beta.2',
+190 silly addNameRange     '1.0.0-alpha.7',
+190 silly addNameRange     '1.0.0-beta.3',
+190 silly addNameRange     '1.0.0-alpha.8',
+190 silly addNameRange     '1.0.0-beta.4',
+190 silly addNameRange     '1.0.0-rc.1',
+190 silly addNameRange     '1.0.0-rc.2-migration',
+190 silly addNameRange     '1.0.0-rc.2',
+190 silly addNameRange     '1.0.0-csp',
+190 silly addNameRange     '1.0.0-migration',
+190 silly addNameRange     '1.0.0',
+190 silly addNameRange     '1.0.1',
+190 silly addNameRange     '1.0.2',
+190 silly addNameRange     '1.0.3',
+190 silly addNameRange     '1.0.4',
+190 silly addNameRange     '1.0.5',
+190 silly addNameRange     '1.0.6',
+190 silly addNameRange     '1.0.7',
+190 silly addNameRange     '1.0.8',
+190 silly addNameRange     '1.0.9',
+190 silly addNameRange     '1.0.10',
+190 silly addNameRange     '1.0.10-csp',
+190 silly addNameRange     '1.0.11',
+190 silly addNameRange     '1.0.11-csp',
+190 silly addNameRange     '1.0.12',
+190 silly addNameRange     '1.0.12-csp',
+190 silly addNameRange     '1.0.12-csp-1',
+190 silly addNameRange     '1.0.13',
+190 silly addNameRange     '1.0.13-csp',
+190 silly addNameRange     '1.0.14',
+190 silly addNameRange     '1.0.14-csp',
+190 silly addNameRange     '1.0.15',
+190 silly addNameRange     '1.0.15-csp',
+190 silly addNameRange     '1.0.16',
+190 silly addNameRange     '1.0.16-csp',
+190 silly addNameRange     '1.0.17',
+190 silly addNameRange     '1.0.17-csp',
+190 silly addNameRange     '1.0.18',
+190 silly addNameRange     '1.0.18-csp',
+190 silly addNameRange     '1.0.19',
+190 silly addNameRange     '1.0.19-csp',
+190 silly addNameRange     '1.0.20',
+190 silly addNameRange     '1.0.20-csp',
+190 silly addNameRange     '1.0.21',
+190 silly addNameRange     '1.0.21-csp',
+190 silly addNameRange     '1.0.22',
+190 silly addNameRange     '1.0.22-csp',
+190 silly addNameRange     '1.0.23',
+190 silly addNameRange     '1.0.23-csp',
+190 silly addNameRange     '1.0.24',
+190 silly addNameRange     '1.0.24-csp',
+190 silly addNameRange     '2.0.0-alpha.1',
+190 silly addNameRange     '2.0.0-alpha.2',
+190 silly addNameRange     '2.0.0-alpha.3',
+190 silly addNameRange     '2.0.0-alpha.4',
+190 silly addNameRange     '1.0.25',
+190 silly addNameRange     '1.0.25-csp',
+190 silly addNameRange     '2.0.0-alpha.5',
+190 silly addNameRange     '2.0.0-alpha.6',
+190 silly addNameRange     '2.0.0-alpha.7',
+190 silly addNameRange     '2.0.0-alpha.8',
+190 silly addNameRange     '1.0.26',
+190 silly addNameRange     '1.0.26-csp',
+190 silly addNameRange     '2.0.0-beta.1',
+190 silly addNameRange     '2.0.0-beta.2',
+190 silly addNameRange     '2.0.0-beta.3',
+190 silly addNameRange     '2.0.0-beta.4',
+190 silly addNameRange     '2.0.0-beta.5',
+190 silly addNameRange     '2.0.0-beta.6',
+190 silly addNameRange     '2.0.0-beta.7',
+190 silly addNameRange     '2.0.0-beta.8',
+190 silly addNameRange     '2.0.0-rc.1',
+190 silly addNameRange     '2.0.0-rc.2',
+190 silly addNameRange     '2.0.0-rc.3',
+190 silly addNameRange     '2.0.0-rc.4',
+190 silly addNameRange     '2.0.0-rc.5',
+190 silly addNameRange     '2.0.0-rc.6',
+190 silly addNameRange     '1.0.27',
+190 silly addNameRange     '1.0.27-csp',
+190 silly addNameRange     '2.0.0-rc.7',
+190 silly addNameRange     '1.0.28',
+190 silly addNameRange     '1.0.28-csp',
+190 silly addNameRange     '2.0.0-rc.8',
+190 silly addNameRange     '2.0.0',
+190 silly addNameRange     '2.0.1',
+190 silly addNameRange     '2.0.2',
+190 silly addNameRange     '2.0.3',
+190 silly addNameRange     '2.0.4',
+190 silly addNameRange     '2.0.5',
+190 silly addNameRange     '2.0.6',
+190 silly addNameRange     '2.0.7' ] ]
+191 silly addNamed vue@2.0.7
+192 verbose addNamed "2.0.7" is a plain semver version for vue
+193 silly cache afterAdd vue@2.0.7
+194 verbose afterAdd C:\Users\WangCK\AppData\Roaming\npm-cache\vue\2.0.7\package\package.json not in flight; writing
+195 verbose correctMkdir C:\Users\WangCK\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+196 verbose afterAdd C:\Users\WangCK\AppData\Roaming\npm-cache\vue\2.0.7\package\package.json written
+197 silly install resolved [ { name: 'vue',
+197 silly install resolved     version: '2.0.7',
+197 silly install resolved     description: 'Reactive, component-oriented view layer for modern web interfaces.',
+197 silly install resolved     main: 'dist/vue.common.js',
+197 silly install resolved     typings: 'types/index.d.ts',
+197 silly install resolved     files:
+197 silly install resolved      [ 'dist/vue.common.js',
+197 silly install resolved        'dist/vue.runtime.js',
+197 silly install resolved        'dist/vue.runtime.min.js',
+197 silly install resolved        'dist/vue.js',
+197 silly install resolved        'dist/vue.min.js',
+197 silly install resolved        'src',
+197 silly install resolved        'types/index.d.ts',
+197 silly install resolved        'types/options.d.ts',
+197 silly install resolved        'types/plugin.d.ts',
+197 silly install resolved        'types/vnode.d.ts',
+197 silly install resolved        'types/vue.d.ts' ],
+197 silly install resolved     scripts:
+197 silly install resolved      { dev: 'TARGET=web-standalone-dev rollup -w -c build/config.js',
+197 silly install resolved        'dev:runtime': 'TARGET=web-runtime-dev rollup -w -c build/config.js',
+197 silly install resolved        'dev:test': 'karma start build/karma.dev.config.js',
+197 silly install resolved        'dev:ssr': 'TARGET=web-server-renderer rollup -w -c build/config.js',
+197 silly install resolved        'dev:compiler': 'TARGET=web-compiler rollup -w -c build/config.js',
+197 silly install resolved        'dev:weex': 'TARGET=weex-framework rollup -w -c build/config.js',
+197 silly install resolved        'dev:weex:compiler': 'TARGET=weex-compiler rollup -w -c build/config.js',
+197 silly install resolved        build: 'node build/build.js',
+197 silly install resolved        'build:ssr': 'npm run build -- vue.common.js,vue-server-renderer',
+197 silly install resolved        'build:weex': 'npm run build -- weex-vue-framework,weex-template-compiler',
+197 silly install resolved        test: 'npm run lint && flow check && npm run test:types && npm run test:cover && npm run test:e2e -- --env phantomjs && npm run test:ssr',
+197 silly install resolved        'test:unit': 'karma start build/karma.unit.config.js',
+197 silly install resolved        'test:cover': 'karma start build/karma.cover.config.js',
+197 silly install resolved        'test:e2e': 'npm run build -- vue.min.js && node test/e2e/runner.js',
+197 silly install resolved        'test:weex': 'npm run build:weex && jasmine JASMINE_CONFIG_PATH=test/weex/jasmine.json',
+197 silly install resolved        'test:ssr': 'npm run build:ssr && VUE_ENV=server jasmine JASMINE_CONFIG_PATH=test/ssr/jasmine.json',
+197 silly install resolved        'test:sauce': 'npm run sauce -- 0 && npm run sauce -- 1 && npm run sauce -- 2',
+197 silly install resolved        'test:types': 'tsc -p ./types/test/tsconfig.json',
+197 silly install resolved        lint: 'eslint src build test',
+197 silly install resolved        flow: 'flow check',
+197 silly install resolved        sauce: 'SAUCE=true karma start build/karma.sauce.config.js',
+197 silly install resolved        'bench:ssr': 'npm run build:ssr && NODE_ENV=production VUE_ENV=server node benchmarks/ssr/renderToString.js && NODE_ENV=production VUE_ENV=server node benchmarks/ssr/renderToStream.js',
+197 silly install resolved        release: 'bash build/release.sh',
+197 silly install resolved        'release:weex': 'bash build/release-weex.sh' },
+197 silly install resolved     repository: { type: 'git', url: 'git+https://github.com/vuejs/vue.git' },
+197 silly install resolved     keywords: [ 'vue' ],
+197 silly install resolved     author: { name: 'Evan You' },
+197 silly install resolved     license: 'MIT',
+197 silly install resolved     bugs: { url: 'https://github.com/vuejs/vue/issues' },
+197 silly install resolved     homepage: 'https://github.com/vuejs/vue#readme',
+197 silly install resolved     devDependencies:
+197 silly install resolved      { 'babel-core': '^6.9.0',
+197 silly install resolved        'babel-eslint': '^7.1.0',
+197 silly install resolved        'babel-loader': '^6.2.4',
+197 silly install resolved        'babel-plugin-coverage': '^1.0.0',
+197 silly install resolved        'babel-preset-es2015': '^6.9.0',
+197 silly install resolved        'babel-preset-flow-vue': '^1.0.0',
+197 silly install resolved        buble: '^0.14.0',
+197 silly install resolved        chromedriver: '^2.21.2',
+197 silly install resolved        'codecov.io': '^0.1.6',
+197 silly install resolved        'cross-spawn': '^5.0.1',
+197 silly install resolved        'de-indent': '^1.0.2',
+197 silly install resolved        'es6-promise': '^4.0.5',
+197 silly install resolved        eslint: '^3.10.1',
+197 silly install resolved        'eslint-config-vue': '^2.0.1',
+197 silly install resolved        'eslint-loader': '^1.3.0',
+197 silly install resolved        'eslint-plugin-flowtype': '^2.16.0',
+197 silly install resolved        'eslint-plugin-vue': '^1.0.0',
+197 silly install resolved        'flow-bin': '^0.33.0',
+197 silly install resolved        he: '^1.1.0',
+197 silly install resolved        'http-server': '^0.9.0',
+197 silly install resolved        jasmine: '^2.5.2',
+197 silly install resolved        'jasmine-core': '^2.5.2',
+197 silly install resolved        karma: '^1.1.0',
+197 silly install resolved        'karma-chrome-launcher': '^2.0.0',
+197 silly install resolved        'karma-coverage': '^1.0.0',
+197 silly install resolved        'karma-firefox-launcher': '^1.0.0',
+197 silly install resolved        'karma-jasmine': '^1.0.2',
+197 silly install resolved        'karma-mocha-reporter': '^2.0.4',
+197 silly install resolved        'karma-phantomjs-launcher': '^1.0.0',
+197 silly install resolved        'karma-safari-launcher': '^1.0.0',
+197 silly install resolved        'karma-sauce-launcher': '^1.0.0',
+197 silly install resolved        'karma-sourcemap-loader': '^0.3.0',
+197 silly install resolved        'karma-webpack': '^1.7.0',
+197 silly install resolved        lodash: '^4.17.1',
+197 silly install resolved        nightwatch: '^0.9.9',
+197 silly install resolved        'nightwatch-helpers': '^1.2.0',
+197 silly install resolved        'phantomjs-prebuilt': '^2.1.1',
+197 silly install resolved        rollup: '^0.36.1',
+197 silly install resolved        'rollup-plugin-alias': '^1.2.0',
+197 silly install resolved        'rollup-plugin-babel': '^2.4.0',
+197 silly install resolved        'rollup-plugin-buble': '^0.14.0',
+197 silly install resolved        'rollup-plugin-flow-no-whitespace': '^1.0.0',
+197 silly install resolved        'rollup-plugin-replace': '^1.1.0',
+197 silly install resolved        'rollup-watch': '^2.5.0',
+197 silly install resolved        'selenium-server': '2.53.1',
+197 silly install resolved        typescript: '^2.0.9',
+197 silly install resolved        'uglify-js': '^2.6.2',
+197 silly install resolved        webpack: '^1.13.2',
+197 silly install resolved        'weex-js-runtime': '^0.17.0-alpha4',
+197 silly install resolved        'weex-vdom-tester': '^0.1.3' },
+197 silly install resolved     dependencies: {},
+197 silly install resolved     gitHead: 'cd0e37361227b9b6f34e88dda3f4934c3932014d',
+197 silly install resolved     _id: 'vue@2.0.7',
+197 silly install resolved     _shasum: '83698ef4f76ce702f425b5576b06ff28e12db143',
+197 silly install resolved     _from: 'vue@>=2.0.1 <3.0.0',
+197 silly install resolved     _npmVersion: '3.10.8',
+197 silly install resolved     _nodeVersion: '6.9.1',
+197 silly install resolved     _npmUser: { name: 'yyx990803', email: 'yyx990803@gmail.com' },
+197 silly install resolved     dist:
+197 silly install resolved      { shasum: '83698ef4f76ce702f425b5576b06ff28e12db143',
+197 silly install resolved        tarball: 'https://registry.npmjs.org/vue/-/vue-2.0.7.tgz' },
+197 silly install resolved     maintainers: [ [Object] ],
+197 silly install resolved     _npmOperationalInternal:
+197 silly install resolved      { host: 'packages-12-west.internal.npmjs.com',
+197 silly install resolved        tmp: 'tmp/vue-2.0.7.tgz_1479333271954_0.264754707692191' },
+197 silly install resolved     directories: {},
+197 silly install resolved     _resolved: 'https://registry.npmjs.org/vue/-/vue-2.0.7.tgz',
+197 silly install resolved     readme: 'ERROR: No README data found!' } ]
+198 info install vue@2.0.7 into D:\NodeJs\WebPackTest
+199 info installOne vue@2.0.7
+200 verbose installOne of vue to D:\NodeJs\WebPackTest not in flight; installing
+201 verbose correctMkdir C:\Users\WangCK\AppData\Roaming\npm-cache\_locks correctMkdir not in flight; initializing
+202 verbose lock using C:\Users\WangCK\AppData\Roaming\npm-cache\_locks\vue-66b9b0b0943f6de2.lock for D:\NodeJs\WebPackTest\node_modules\vue
+203 silly install write writing vue 2.0.7 to D:\NodeJs\WebPackTest\node_modules\vue
+204 verbose unbuild node_modules\vue
+205 info preuninstall vue@2.0.7
+206 info uninstall vue@2.0.7
+207 verbose unbuild rmStuff vue@2.0.7 from D:\NodeJs\WebPackTest\node_modules
+208 info postuninstall vue@2.0.7
+209 silly gentlyRm D:\NodeJs\WebPackTest\node_modules\vue is being purged from base D:\NodeJs\WebPackTest
+210 verbose gentlyRm don't care about contents; nuking D:\NodeJs\WebPackTest\node_modules\vue
+211 silly vacuum-fs purging D:\NodeJs\WebPackTest\node_modules\vue
+212 silly vacuum-fs quitting because other entries in D:\NodeJs\WebPackTest\node_modules
+213 verbose tar unpack C:\Users\WangCK\AppData\Roaming\npm-cache\vue\2.0.7\package.tgz
+214 verbose tar unpacking to D:\NodeJs\WebPackTest\node_modules\vue
+215 silly gentlyRm D:\NodeJs\WebPackTest\node_modules\vue is being purged
+216 verbose gentlyRm don't care about contents; nuking D:\NodeJs\WebPackTest\node_modules\vue
+217 silly gunzTarPerm modes [ '777', '666' ]
+218 silly gunzTarPerm extractEntry package.json
+219 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+220 silly gunzTarPerm extractEntry README.md
+221 silly gunzTarPerm modified mode [ 'README.md', 420, 438 ]
+222 silly gunzTarPerm extractEntry LICENSE
+223 silly gunzTarPerm modified mode [ 'LICENSE', 420, 438 ]
+224 silly gunzTarPerm extractEntry dist/vue.common.js
+225 silly gunzTarPerm modified mode [ 'dist/vue.common.js', 420, 438 ]
+226 silly gunzTarPerm extractEntry dist/vue.js
+227 silly gunzTarPerm modified mode [ 'dist/vue.js', 420, 438 ]
+228 silly gunzTarPerm extractEntry dist/vue.min.js
+229 silly gunzTarPerm modified mode [ 'dist/vue.min.js', 420, 438 ]
+230 silly gunzTarPerm extractEntry dist/vue.runtime.js
+231 silly gunzTarPerm modified mode [ 'dist/vue.runtime.js', 420, 438 ]
+232 silly gunzTarPerm extractEntry dist/vue.runtime.min.js
+233 silly gunzTarPerm modified mode [ 'dist/vue.runtime.min.js', 420, 438 ]
+234 silly gunzTarPerm extractEntry types/index.d.ts
+235 silly gunzTarPerm modified mode [ 'types/index.d.ts', 420, 438 ]
+236 silly gunzTarPerm extractEntry types/options.d.ts
+237 silly gunzTarPerm modified mode [ 'types/options.d.ts', 420, 438 ]
+238 silly gunzTarPerm extractEntry types/plugin.d.ts
+239 silly gunzTarPerm modified mode [ 'types/plugin.d.ts', 420, 438 ]
+240 silly gunzTarPerm extractEntry types/vnode.d.ts
+241 silly gunzTarPerm modified mode [ 'types/vnode.d.ts', 420, 438 ]
+242 silly gunzTarPerm extractEntry types/vue.d.ts
+243 silly gunzTarPerm modified mode [ 'types/vue.d.ts', 420, 438 ]
+244 silly gunzTarPerm extractEntry src/compiler/error-detector.js
+245 silly gunzTarPerm modified mode [ 'src/compiler/error-detector.js', 420, 438 ]
+246 silly gunzTarPerm extractEntry src/compiler/helpers.js
+247 silly gunzTarPerm modified mode [ 'src/compiler/helpers.js', 420, 438 ]
+248 silly gunzTarPerm extractEntry src/compiler/index.js
+249 silly gunzTarPerm modified mode [ 'src/compiler/index.js', 420, 438 ]
+250 silly gunzTarPerm extractEntry src/compiler/optimizer.js
+251 silly gunzTarPerm modified mode [ 'src/compiler/optimizer.js', 420, 438 ]
+252 silly gunzTarPerm extractEntry src/compiler/codegen/events.js
+253 silly gunzTarPerm modified mode [ 'src/compiler/codegen/events.js', 420, 438 ]
+254 silly gunzTarPerm extractEntry src/compiler/codegen/index.js
+255 silly gunzTarPerm modified mode [ 'src/compiler/codegen/index.js', 420, 438 ]
+256 silly gunzTarPerm extractEntry src/compiler/directives/bind.js
+257 silly gunzTarPerm modified mode [ 'src/compiler/directives/bind.js', 420, 438 ]
+258 silly gunzTarPerm extractEntry src/compiler/directives/index.js
+259 silly gunzTarPerm modified mode [ 'src/compiler/directives/index.js', 420, 438 ]
+260 silly gunzTarPerm extractEntry src/compiler/parser/entity-decoder.js
+261 silly gunzTarPerm modified mode [ 'src/compiler/parser/entity-decoder.js', 420, 438 ]
+262 silly gunzTarPerm extractEntry src/compiler/parser/filter-parser.js
+263 silly gunzTarPerm modified mode [ 'src/compiler/parser/filter-parser.js', 420, 438 ]
+264 silly gunzTarPerm extractEntry src/compiler/parser/html-parser.js
+265 silly gunzTarPerm modified mode [ 'src/compiler/parser/html-parser.js', 420, 438 ]
+266 silly gunzTarPerm extractEntry src/compiler/parser/index.js
+267 silly gunzTarPerm modified mode [ 'src/compiler/parser/index.js', 420, 438 ]
+268 silly gunzTarPerm extractEntry src/compiler/parser/text-parser.js
+269 silly gunzTarPerm modified mode [ 'src/compiler/parser/text-parser.js', 420, 438 ]
+270 silly gunzTarPerm extractEntry src/core/config.js
+271 silly gunzTarPerm modified mode [ 'src/core/config.js', 420, 438 ]
+272 silly gunzTarPerm extractEntry src/core/index.js
+273 silly gunzTarPerm modified mode [ 'src/core/index.js', 420, 438 ]
+274 silly gunzTarPerm extractEntry src/core/components/index.js
+275 silly gunzTarPerm modified mode [ 'src/core/components/index.js', 420, 438 ]
+276 silly gunzTarPerm extractEntry src/core/components/keep-alive.js
+277 silly gunzTarPerm modified mode [ 'src/core/components/keep-alive.js', 420, 438 ]
+278 silly gunzTarPerm extractEntry src/core/global-api/assets.js
+279 silly gunzTarPerm modified mode [ 'src/core/global-api/assets.js', 420, 438 ]
+280 silly gunzTarPerm extractEntry src/core/global-api/extend.js
+281 silly gunzTarPerm modified mode [ 'src/core/global-api/extend.js', 420, 438 ]
+282 silly gunzTarPerm extractEntry src/core/global-api/index.js
+283 silly gunzTarPerm modified mode [ 'src/core/global-api/index.js', 420, 438 ]
+284 silly gunzTarPerm extractEntry src/core/global-api/mixin.js
+285 silly gunzTarPerm modified mode [ 'src/core/global-api/mixin.js', 420, 438 ]
+286 silly gunzTarPerm extractEntry src/core/global-api/use.js
+287 silly gunzTarPerm modified mode [ 'src/core/global-api/use.js', 420, 438 ]
+288 silly gunzTarPerm extractEntry src/core/instance/events.js
+289 silly gunzTarPerm modified mode [ 'src/core/instance/events.js', 420, 438 ]
+290 silly gunzTarPerm extractEntry src/core/instance/index.js
+291 silly gunzTarPerm modified mode [ 'src/core/instance/index.js', 420, 438 ]
+292 silly gunzTarPerm extractEntry src/core/instance/init.js
+293 silly gunzTarPerm modified mode [ 'src/core/instance/init.js', 420, 438 ]
+294 silly gunzTarPerm extractEntry src/core/instance/lifecycle.js
+295 silly gunzTarPerm modified mode [ 'src/core/instance/lifecycle.js', 420, 438 ]
+296 silly gunzTarPerm extractEntry src/core/instance/proxy.js
+297 silly gunzTarPerm modified mode [ 'src/core/instance/proxy.js', 420, 438 ]
+298 silly gunzTarPerm extractEntry src/core/instance/render.js
+299 silly gunzTarPerm modified mode [ 'src/core/instance/render.js', 420, 438 ]
+300 silly gunzTarPerm extractEntry src/core/instance/state.js
+301 silly gunzTarPerm modified mode [ 'src/core/instance/state.js', 420, 438 ]
+302 silly gunzTarPerm extractEntry src/core/observer/array.js
+303 silly gunzTarPerm modified mode [ 'src/core/observer/array.js', 420, 438 ]
+304 silly gunzTarPerm extractEntry src/core/observer/dep.js
+305 silly gunzTarPerm modified mode [ 'src/core/observer/dep.js', 420, 438 ]
+306 silly gunzTarPerm extractEntry src/core/observer/index.js
+307 silly gunzTarPerm modified mode [ 'src/core/observer/index.js', 420, 438 ]
+308 silly gunzTarPerm extractEntry src/core/observer/scheduler.js
+309 silly gunzTarPerm modified mode [ 'src/core/observer/scheduler.js', 420, 438 ]
+310 silly gunzTarPerm extractEntry src/core/observer/watcher.js
+311 silly gunzTarPerm modified mode [ 'src/core/observer/watcher.js', 420, 438 ]
+312 silly gunzTarPerm extractEntry src/core/util/debug.js
+313 silly gunzTarPerm modified mode [ 'src/core/util/debug.js', 420, 438 ]
+314 silly gunzTarPerm extractEntry src/core/util/env.js
+315 silly gunzTarPerm modified mode [ 'src/core/util/env.js', 420, 438 ]
+316 silly gunzTarPerm extractEntry src/core/util/index.js
+317 silly gunzTarPerm modified mode [ 'src/core/util/index.js', 420, 438 ]
+318 silly gunzTarPerm extractEntry src/core/util/lang.js
+319 silly gunzTarPerm modified mode [ 'src/core/util/lang.js', 420, 438 ]
+320 silly gunzTarPerm extractEntry src/core/util/options.js
+321 silly gunzTarPerm modified mode [ 'src/core/util/options.js', 420, 438 ]
+322 silly gunzTarPerm extractEntry src/core/util/props.js
+323 silly gunzTarPerm modified mode [ 'src/core/util/props.js', 420, 438 ]
+324 silly gunzTarPerm extractEntry src/core/vdom/create-component.js
+325 silly gunzTarPerm modified mode [ 'src/core/vdom/create-component.js', 420, 438 ]
+326 silly gunzTarPerm extractEntry src/core/vdom/create-element.js
+327 silly gunzTarPerm modified mode [ 'src/core/vdom/create-element.js', 420, 438 ]
+328 silly gunzTarPerm extractEntry src/core/vdom/patch.js
+329 silly gunzTarPerm modified mode [ 'src/core/vdom/patch.js', 420, 438 ]
+330 silly gunzTarPerm extractEntry src/core/vdom/vnode.js
+331 silly gunzTarPerm modified mode [ 'src/core/vdom/vnode.js', 420, 438 ]
+332 silly gunzTarPerm extractEntry src/core/vdom/helpers/index.js
+333 silly gunzTarPerm modified mode [ 'src/core/vdom/helpers/index.js', 420, 438 ]
+334 silly gunzTarPerm extractEntry src/core/vdom/helpers/merge-hook.js
+335 silly gunzTarPerm modified mode [ 'src/core/vdom/helpers/merge-hook.js', 420, 438 ]
+336 silly gunzTarPerm extractEntry src/core/vdom/helpers/normalize-children.js
+337 silly gunzTarPerm modified mode [ 'src/core/vdom/helpers/normalize-children.js', 420, 438 ]
+338 silly gunzTarPerm extractEntry src/core/vdom/helpers/update-listeners.js
+339 silly gunzTarPerm modified mode [ 'src/core/vdom/helpers/update-listeners.js', 420, 438 ]
+340 silly gunzTarPerm extractEntry src/core/vdom/modules/directives.js
+341 silly gunzTarPerm modified mode [ 'src/core/vdom/modules/directives.js', 420, 438 ]
+342 silly gunzTarPerm extractEntry src/core/vdom/modules/index.js
+343 silly gunzTarPerm modified mode [ 'src/core/vdom/modules/index.js', 420, 438 ]
+344 silly gunzTarPerm extractEntry src/core/vdom/modules/ref.js
+345 silly gunzTarPerm modified mode [ 'src/core/vdom/modules/ref.js', 420, 438 ]
+346 silly gunzTarPerm extractEntry src/entries/web-compiler.js
+347 silly gunzTarPerm modified mode [ 'src/entries/web-compiler.js', 420, 438 ]
+348 silly gunzTarPerm extractEntry src/entries/web-runtime-with-compiler.js
+349 silly gunzTarPerm modified mode [ 'src/entries/web-runtime-with-compiler.js', 420, 438 ]
+350 silly gunzTarPerm extractEntry src/entries/web-runtime.js
+351 silly gunzTarPerm modified mode [ 'src/entries/web-runtime.js', 420, 438 ]
+352 silly gunzTarPerm extractEntry src/entries/web-server-renderer.js
+353 silly gunzTarPerm modified mode [ 'src/entries/web-server-renderer.js', 420, 438 ]
+354 silly gunzTarPerm extractEntry src/entries/weex-compiler.js
+355 silly gunzTarPerm modified mode [ 'src/entries/weex-compiler.js', 493, 511 ]
+356 silly gunzTarPerm extractEntry src/entries/weex-framework.js
+357 silly gunzTarPerm modified mode [ 'src/entries/weex-framework.js', 493, 511 ]
+358 silly gunzTarPerm extractEntry src/platforms/web/compiler/index.js
+359 silly gunzTarPerm modified mode [ 'src/platforms/web/compiler/index.js', 420, 438 ]
+360 silly gunzTarPerm extractEntry src/platforms/web/compiler/directives/html.js
+361 silly gunzTarPerm modified mode [ 'src/platforms/web/compiler/directives/html.js', 420, 438 ]
+362 silly gunzTarPerm extractEntry src/platforms/web/compiler/directives/index.js
+363 silly gunzTarPerm modified mode [ 'src/platforms/web/compiler/directives/index.js', 420, 438 ]
+364 silly gunzTarPerm extractEntry src/platforms/web/compiler/directives/model.js
+365 silly gunzTarPerm modified mode [ 'src/platforms/web/compiler/directives/model.js', 420, 438 ]
+366 silly gunzTarPerm extractEntry src/platforms/web/compiler/directives/text.js
+367 silly gunzTarPerm modified mode [ 'src/platforms/web/compiler/directives/text.js', 420, 438 ]
+368 silly gunzTarPerm extractEntry src/platforms/web/compiler/modules/class.js
+369 silly gunzTarPerm modified mode [ 'src/platforms/web/compiler/modules/class.js', 420, 438 ]
+370 silly gunzTarPerm extractEntry src/platforms/web/compiler/modules/index.js
+371 silly gunzTarPerm modified mode [ 'src/platforms/web/compiler/modules/index.js', 420, 438 ]
+372 silly gunzTarPerm extractEntry src/platforms/web/compiler/modules/style.js
+373 silly gunzTarPerm modified mode [ 'src/platforms/web/compiler/modules/style.js', 420, 438 ]
+374 silly gunzTarPerm extractEntry src/platforms/web/runtime/class-util.js
+375 silly gunzTarPerm modified mode [ 'src/platforms/web/runtime/class-util.js', 420, 438 ]
+376 silly gunzTarPerm extractEntry src/platforms/web/runtime/node-ops.js
+377 silly gunzTarPerm modified mode [ 'src/platforms/web/runtime/node-ops.js', 420, 438 ]
+378 silly gunzTarPerm extractEntry src/platforms/web/runtime/patch.js
+379 silly gunzTarPerm modified mode [ 'src/platforms/web/runtime/patch.js', 420, 438 ]
+380 silly gunzTarPerm extractEntry src/platforms/web/runtime/transition-util.js
+381 silly gunzTarPerm modified mode [ 'src/platforms/web/runtime/transition-util.js', 420, 438 ]
+382 silly gunzTarPerm extractEntry src/platforms/web/runtime/components/index.js
+383 silly gunzTarPerm modified mode [ 'src/platforms/web/runtime/components/index.js', 420, 438 ]
+384 silly gunzTarPerm extractEntry src/platforms/web/runtime/components/transition-group.js
+385 silly gunzTarPerm modified mode [ 'src/platforms/web/runtime/components/transition-group.js',
+385 silly gunzTarPerm   420,
+385 silly gunzTarPerm   438 ]
+386 silly gunzTarPerm extractEntry src/platforms/web/runtime/components/transition.js
+387 silly gunzTarPerm modified mode [ 'src/platforms/web/runtime/components/transition.js',
+387 silly gunzTarPerm   420,
+387 silly gunzTarPerm   438 ]
+388 silly gunzTarPerm extractEntry src/platforms/web/runtime/directives/index.js
+389 silly gunzTarPerm modified mode [ 'src/platforms/web/runtime/directives/index.js', 420, 438 ]
+390 silly gunzTarPerm extractEntry src/platforms/web/runtime/directives/model.js
+391 silly gunzTarPerm modified mode [ 'src/platforms/web/runtime/directives/model.js', 420, 438 ]
+392 silly gunzTarPerm extractEntry src/platforms/web/runtime/directives/show.js
+393 silly gunzTarPerm modified mode [ 'src/platforms/web/runtime/directives/show.js', 420, 438 ]
+394 silly gunzTarPerm extractEntry src/platforms/web/runtime/modules/attrs.js
+395 silly gunzTarPerm modified mode [ 'src/platforms/web/runtime/modules/attrs.js', 420, 438 ]
+396 silly gunzTarPerm extractEntry src/platforms/web/runtime/modules/class.js
+397 silly gunzTarPerm modified mode [ 'src/platforms/web/runtime/modules/class.js', 420, 438 ]
+398 silly gunzTarPerm extractEntry src/platforms/web/runtime/modules/dom-props.js
+399 silly gunzTarPerm modified mode [ 'src/platforms/web/runtime/modules/dom-props.js', 420, 438 ]
+400 silly gunzTarPerm extractEntry src/platforms/web/runtime/modules/events.js
+401 silly gunzTarPerm modified mode [ 'src/platforms/web/runtime/modules/events.js', 420, 438 ]
+402 silly gunzTarPerm extractEntry src/platforms/web/runtime/modules/index.js
+403 silly gunzTarPerm modified mode [ 'src/platforms/web/runtime/modules/index.js', 420, 438 ]
+404 silly gunzTarPerm extractEntry src/platforms/web/runtime/modules/style.js
+405 silly gunzTarPerm modified mode [ 'src/platforms/web/runtime/modules/style.js', 420, 438 ]
+406 silly gunzTarPerm extractEntry src/platforms/web/runtime/modules/transition.js
+407 silly gunzTarPerm modified mode [ 'src/platforms/web/runtime/modules/transition.js', 420, 438 ]
+408 silly gunzTarPerm extractEntry src/platforms/web/server/directives/index.js
+409 silly gunzTarPerm modified mode [ 'src/platforms/web/server/directives/index.js', 420, 438 ]
+410 silly gunzTarPerm extractEntry src/platforms/web/server/directives/show.js
+411 silly gunzTarPerm modified mode [ 'src/platforms/web/server/directives/show.js', 420, 438 ]
+412 silly gunzTarPerm extractEntry src/platforms/web/server/modules/attrs.js
+413 silly gunzTarPerm modified mode [ 'src/platforms/web/server/modules/attrs.js', 420, 438 ]
+414 silly gunzTarPerm extractEntry src/platforms/web/server/modules/class.js
+415 silly gunzTarPerm modified mode [ 'src/platforms/web/server/modules/class.js', 420, 438 ]
+416 silly gunzTarPerm extractEntry src/platforms/web/server/modules/dom-props.js
+417 silly gunzTarPerm modified mode [ 'src/platforms/web/server/modules/dom-props.js', 420, 438 ]
+418 silly gunzTarPerm extractEntry src/platforms/web/server/modules/index.js
+419 silly gunzTarPerm modified mode [ 'src/platforms/web/server/modules/index.js', 420, 438 ]
+420 silly gunzTarPerm extractEntry src/platforms/web/server/modules/style.js
+421 silly gunzTarPerm modified mode [ 'src/platforms/web/server/modules/style.js', 420, 438 ]
+422 silly gunzTarPerm extractEntry src/platforms/web/util/attrs.js
+423 silly gunzTarPerm modified mode [ 'src/platforms/web/util/attrs.js', 420, 438 ]
+424 silly gunzTarPerm extractEntry src/platforms/web/util/class.js
+425 silly gunzTarPerm modified mode [ 'src/platforms/web/util/class.js', 420, 438 ]
+426 silly gunzTarPerm extractEntry src/platforms/web/util/compat.js
+427 silly gunzTarPerm modified mode [ 'src/platforms/web/util/compat.js', 420, 438 ]
+428 silly gunzTarPerm extractEntry src/platforms/web/util/element.js
+429 silly gunzTarPerm modified mode [ 'src/platforms/web/util/element.js', 420, 438 ]
+430 silly gunzTarPerm extractEntry src/platforms/web/util/index.js
+431 silly gunzTarPerm modified mode [ 'src/platforms/web/util/index.js', 420, 438 ]
+432 silly gunzTarPerm extractEntry src/platforms/web/util/style.js
+433 silly gunzTarPerm modified mode [ 'src/platforms/web/util/style.js', 420, 438 ]
+434 silly gunzTarPerm extractEntry src/platforms/weex/compiler/index.js
+435 silly gunzTarPerm modified mode [ 'src/platforms/weex/compiler/index.js', 420, 438 ]
+436 silly gunzTarPerm extractEntry src/platforms/weex/compiler/directives/index.js
+437 silly gunzTarPerm modified mode [ 'src/platforms/weex/compiler/directives/index.js', 493, 511 ]
+438 silly gunzTarPerm extractEntry src/platforms/weex/compiler/directives/model.js
+439 silly gunzTarPerm modified mode [ 'src/platforms/weex/compiler/directives/model.js', 420, 438 ]
+440 silly gunzTarPerm extractEntry src/platforms/weex/compiler/modules/append.js
+441 silly gunzTarPerm modified mode [ 'src/platforms/weex/compiler/modules/append.js', 420, 438 ]
+442 silly gunzTarPerm extractEntry src/platforms/weex/compiler/modules/class.js
+443 silly gunzTarPerm modified mode [ 'src/platforms/weex/compiler/modules/class.js', 420, 438 ]
+444 silly gunzTarPerm extractEntry src/platforms/weex/compiler/modules/index.js
+445 silly gunzTarPerm modified mode [ 'src/platforms/weex/compiler/modules/index.js', 420, 438 ]
+446 silly gunzTarPerm extractEntry src/platforms/weex/compiler/modules/style.js
+447 silly gunzTarPerm modified mode [ 'src/platforms/weex/compiler/modules/style.js', 420, 438 ]
+448 silly gunzTarPerm extractEntry src/platforms/weex/runtime/config.js
+449 silly gunzTarPerm modified mode [ 'src/platforms/weex/runtime/config.js', 420, 438 ]
+450 silly gunzTarPerm extractEntry src/platforms/weex/runtime/index.js
+451 silly gunzTarPerm modified mode [ 'src/platforms/weex/runtime/index.js', 493, 511 ]
+452 silly gunzTarPerm extractEntry src/platforms/weex/runtime/node-ops.js
+453 silly gunzTarPerm modified mode [ 'src/platforms/weex/runtime/node-ops.js', 493, 511 ]
+454 silly gunzTarPerm extractEntry src/platforms/weex/runtime/patch.js
+455 silly gunzTarPerm modified mode [ 'src/platforms/weex/runtime/patch.js', 420, 438 ]
+456 silly gunzTarPerm extractEntry src/platforms/weex/runtime/directives/index.js
+457 silly gunzTarPerm modified mode [ 'src/platforms/weex/runtime/directives/index.js', 493, 511 ]
+458 silly gunzTarPerm extractEntry src/platforms/weex/runtime/modules/attrs.js
+459 silly gunzTarPerm modified mode [ 'src/platforms/weex/runtime/modules/attrs.js', 493, 511 ]
+460 silly gunzTarPerm extractEntry src/platforms/weex/runtime/modules/class.js
+461 silly gunzTarPerm modified mode [ 'src/platforms/weex/runtime/modules/class.js', 493, 511 ]
+462 silly gunzTarPerm extractEntry src/platforms/weex/runtime/modules/events.js
+463 silly gunzTarPerm modified mode [ 'src/platforms/weex/runtime/modules/events.js', 493, 511 ]
+464 silly gunzTarPerm extractEntry src/platforms/weex/runtime/modules/index.js
+465 silly gunzTarPerm modified mode [ 'src/platforms/weex/runtime/modules/index.js', 493, 511 ]
+466 silly gunzTarPerm extractEntry src/platforms/weex/runtime/modules/style.js
+467 silly gunzTarPerm modified mode [ 'src/platforms/weex/runtime/modules/style.js', 493, 511 ]
+468 silly gunzTarPerm extractEntry src/platforms/weex/util/index.js
+469 silly gunzTarPerm modified mode [ 'src/platforms/weex/util/index.js', 493, 511 ]
+470 silly gunzTarPerm extractEntry src/server/create-bundle-renderer.js
+471 silly gunzTarPerm modified mode [ 'src/server/create-bundle-renderer.js', 420, 438 ]
+472 silly gunzTarPerm extractEntry src/server/create-renderer.js
+473 silly gunzTarPerm modified mode [ 'src/server/create-renderer.js', 420, 438 ]
+474 silly gunzTarPerm extractEntry src/server/render-stream.js
+475 silly gunzTarPerm modified mode [ 'src/server/render-stream.js', 420, 438 ]
+476 silly gunzTarPerm extractEntry src/server/render.js
+477 silly gunzTarPerm modified mode [ 'src/server/render.js', 420, 438 ]
+478 silly gunzTarPerm extractEntry src/server/run-in-vm.js
+479 silly gunzTarPerm modified mode [ 'src/server/run-in-vm.js', 420, 438 ]
+480 silly gunzTarPerm extractEntry src/server/write.js
+481 silly gunzTarPerm modified mode [ 'src/server/write.js', 420, 438 ]
+482 silly gunzTarPerm extractEntry src/sfc/parser.js
+483 silly gunzTarPerm modified mode [ 'src/sfc/parser.js', 420, 438 ]
+484 silly gunzTarPerm extractEntry src/shared/util.js
+485 silly gunzTarPerm modified mode [ 'src/shared/util.js', 420, 438 ]
+486 verbose write writing to D:\NodeJs\WebPackTest\node_modules\vue\package.json
+487 info preinstall vue@2.0.7
+488 verbose readDependencies loading dependencies from D:\NodeJs\WebPackTest\node_modules\vue\package.json
+489 verbose readDependencies loading dependencies from D:\NodeJs\WebPackTest\node_modules\vue\package.json
+490 silly install resolved []
+491 verbose about to build D:\NodeJs\WebPackTest\node_modules\vue
+492 info build D:\NodeJs\WebPackTest\node_modules\vue
+493 info linkStuff vue@2.0.7
+494 silly linkStuff vue@2.0.7 has D:\NodeJs\WebPackTest\node_modules as its parent node_modules
+495 verbose linkBins vue@2.0.7
+496 verbose linkMans vue@2.0.7
+497 verbose rebuildBundles vue@2.0.7
+498 info install vue@2.0.7
+499 info postinstall vue@2.0.7
+500 verbose unlock done using C:\Users\WangCK\AppData\Roaming\npm-cache\_locks\vue-66b9b0b0943f6de2.lock for D:\NodeJs\WebPackTest\node_modules\vue
+501 verbose validateInstall loading D:\NodeJs\WebPackTest\package.json for validation
+502 verbose stack Error: The package babel-runtime@5.8.38 does not satisfy its siblings' peerDependencies requirements!
+502 verbose stack     at D:\NodeJs\node_modules\npm\lib\install.js:125:32
+502 verbose stack     at D:\NodeJs\node_modules\npm\lib\install.js:268:7
+502 verbose stack     at D:\NodeJs\node_modules\npm\node_modules\read-installed\read-installed.js:142:5
+502 verbose stack     at D:\NodeJs\node_modules\npm\node_modules\read-installed\read-installed.js:263:14
+502 verbose stack     at cb (D:\NodeJs\node_modules\npm\node_modules\slide\lib\async-map.js:47:24)
+502 verbose stack     at D:\NodeJs\node_modules\npm\node_modules\read-installed\read-installed.js:263:14
+502 verbose stack     at cb (D:\NodeJs\node_modules\npm\node_modules\slide\lib\async-map.js:47:24)
+502 verbose stack     at D:\NodeJs\node_modules\npm\node_modules\read-installed\read-installed.js:263:14
+502 verbose stack     at cb (D:\NodeJs\node_modules\npm\node_modules\slide\lib\async-map.js:47:24)
+502 verbose stack     at D:\NodeJs\node_modules\npm\node_modules\read-installed\read-installed.js:263:14
+503 verbose cwd D:\NodeJs\WebPackTest
+504 error Windows_NT 10.0.14393
+505 error argv "D:\\NodeJs\\node.exe" "D:\\NodeJs\\node_modules\\npm\\bin\\npm-cli.js" "install" "--save-dev" "vue"
+506 error node v4.4.7
+507 error npm  v2.15.8
+508 error code EPEERINVALID
+509 error peerinvalid The package babel-runtime@5.8.38 does not satisfy its siblings' peerDependencies requirements!
+509 error peerinvalid Peer vue-loader@8.5.4 wants babel-runtime@^6.0.0
+510 verbose exit [ 1, true ]
