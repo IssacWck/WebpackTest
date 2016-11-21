@@ -61,5 +61,6 @@ module.exports = {
 	//    //new webpack.optimize.OccurenceOrderPlugin(),
 	//    //new webpack.optimize.UglifyJsPlugin()
 	//    //new ExtractTextPlugin("style.css")
+	//	  111
 	//],
 };
