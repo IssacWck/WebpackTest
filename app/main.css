@@ -1,0 +1,9 @@
+body {
+    font-family: 'wangck';
+}
+
+#root {
+    font-style: italic;
+    color: dimgray;
+    background: silver;
+}
