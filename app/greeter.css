@@ -1,0 +1,7 @@
+.root {
+    color: blueviolet;
+    border: 2px dashed black;
+    padding: 15px;
+    width: auto;
+    float: left;
+}
