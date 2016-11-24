@@ -72,9 +72,6 @@ module.exports = {
 		new HtmlWebpackPlugin({
 			template: __dirname + '/lib/template.html'
 		})
-	//    //new webpack.HotModuleReplacementPlugin(),
-	//    //new webpack.optimize.OccurenceOrderPlugin(),
-	//    //new webpack.optimize.UglifyJsPlugin()
-	//    //new ExtractTextPlugin("style.css")
 	]
 };
+>>>>>>> b581685dc70a9bd5f67451dbd70df6b80fde827c
