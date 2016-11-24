@@ -8,22 +8,17 @@ var framework = (['avalon', 'vue', 'react'])[1];
 
 module.exports = {
     devtools: 'eval-source-map',
-	entry: path.resolve(__dirname, 'lib/' + framework),
-	//entry: {
-	//	index: path.resolve(__dirname, 'lib/' + framework + '/index.js')
-	//},
+	entry: {
+		index: path.resolve(__dirname, 'lib/' + framework + '/index.js')
+	},
     output: {
 	    path: path.resolve(__dirname, 'dist'),
         filename: '[name].js'
     },
     devServer: {
-	    // 本地服务器所加载的页面所在的目录
 	    contentBase: path.resolve(__dirname, 'dist'),
-	    // 终端中输出结果为彩色
 	    colors: true,
-	    // 不跳转
         historyApiFallback: true,
-	    // 实时刷新
         inline: true,
         hot: true,
 	    progress: true
