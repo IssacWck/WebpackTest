@@ -74,4 +74,3 @@ module.exports = {
 		})
 	]
 };
->>>>>>> b581685dc70a9bd5f67451dbd70df6b80fde827c
