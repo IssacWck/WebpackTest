@@ -16,7 +16,7 @@ module.exports = {
         filename: '[name].js'
     },
     devServer: {
-	    contentBase: path.resolve(__dirname, 'dist'),
+	    //contentBase: path.resolve(__dirname, 'dist'),
 	    colors: true,
         historyApiFallback: true,
         inline: true,
@@ -65,7 +65,8 @@ module.exports = {
 	plugins: [
 	    new webpack.BannerPlugin("Copyright By WangCK"),
 		new HtmlWebpackPlugin({
-			template: __dirname + '/lib/template.html'
-		})
+			template: path.resolve(__dirname, 'lib/template.html')
+		}),
+		new webpack.HotModuleReplacementPlugin()
 	]
 };
