@@ -4,25 +4,29 @@
 var path = require('path');
 var webpack = require('webpack');
 var HtmlWebpackPlugin = require('html-webpack-plugin');
-var framework = (['avalon', 'vue', 'react'])[1];
+var framework = (['avalon', 'vue', 'react'])[2];
 
 module.exports = {
-    devtools: 'eval-source-map',
-	entry: {
-		index: path.resolve(__dirname, 'lib/' + framework + '/index.js')
-	},
+    devtools: 'source-map',
+	entry: [
+		'webpack-hot-middleware/client?path=http://localhost:3000/__webpack_hmr&reload=true&noInfo=false&quiet=false',
+		'babel-polyfill',
+		path.resolve(__dirname, 'lib/' + framework + '')
+	],
     output: {
 	    path: path.resolve(__dirname, 'dist'),
-        filename: '[name].js'
+        filename: '[name].js',
+	    publicPath: 'http://localhost:3000/dist/',
+	    chunkFilename: '[hash].[name].js'
     },
-    devServer: {
-	    //contentBase: path.resolve(__dirname, 'dist'),
-	    colors: true,
-        historyApiFallback: true,
-        inline: true,
-        hot: true,
-	    progress: true
-    },
+    //devServer: {
+	 //   //contentBase: path.resolve(__dirname, 'dist'),
+	 //   colors: true,
+    //    historyApiFallback: true,
+    //    inline: true,
+    //    hot: true,
+	 //   progress: true
+    //},
     module: {
         loaders: [
             {
@@ -63,10 +67,12 @@ module.exports = {
 		}
 	},
 	plugins: [
-	    new webpack.BannerPlugin("Copyright By WangCK"),
-		new HtmlWebpackPlugin({
-			template: path.resolve(__dirname, 'lib/template.html')
-		}),
+		//new webpack.BannerPlugin("Copyright By WangCK"),
+		//new HtmlWebpackPlugin({
+		//	template: path.resolve(__dirname, 'lib/template.html')
+		//}),
+		new webpack.optimize.OccurenceOrderPlugin(),
+		new webpack.NoErrorsPlugin(),
 		new webpack.HotModuleReplacementPlugin()
 	]
 };
