@@ -13,6 +13,7 @@
     import Loading from './Loading';
     import Site from './Site';
     import Selected from './Selected';
+    import Q from 'q';
 
     export default {
         name: 'controller',
@@ -20,8 +21,7 @@
             return {
                 loading: true,
                 site: [],
-                select: [],
-                selected: []
+                select: []
             }
         },
         components: {
@@ -31,43 +31,43 @@
             Selected
         },
         created () {
-            this.getData('http://mini.com/getSite', null, null, function (response) {
+            this.getData('getSite').then(response => {
                 this.site = response;
-                this.checkSelected(function () {
-                    this.loading = false;
-                    setInterval(function () {
-                        this.checkSelected();
-                    }.bind(this), 5000);
-                }.bind(this));
-            }.bind(this));
+                this.checkSelected(() => this.loading = false);
+            });
+        },
+        mounted () {
+            setInterval(() => this.checkSelected(), 5000);
         },
         methods: {
-            getData (url, data, method, callback) {
+            getData (url, data) {
+                let deferred = Q.defer();
                 jQuery.ajax({
-                    type: method || 'GET',
-                    url: url,
+                    type: data ? 'POST' : 'GET',
+                    url: 'http://minisite.com/' + url,
                     data: data || {},
                     dataType: 'json',
-                    success: function (response) {
-                        callback && callback(response);
-                    },
-                    error: function (error) {}
+                    success: deferred.resolve,
+                    error: deferred.reject
                 });
+                return deferred.promise;
             },
             checkSelected (callback) {
-                this.getData('http://mini.com/checkSelected', null, null, function (response) {
-                    this.selected = response;
-                    for (var i = 0; i < this.selected.length; i++) {
-                        this.site[this.selected[i].id - 1].selected = 1;
+                this.getData('checkSelected').then(response => {
+                    for (let i = 0; i < response.length; i++) {
+                        this.site[response[i].id - 1].selected = 1;
                     }
                     callback && callback();
-                }.bind(this));
+                });
             },
             selectSite (el, index) {
                 if (el.selected === 1) {
                     return false;
                 }
-                this.select.push({id: el.id, siteIndex: index});
+                this.select.push({
+                    id: el.id,
+                    siteIndex: index
+                });
                 this.site[index].selected = 1;
             },
             close (index, siteIndex) {
@@ -79,22 +79,21 @@
                     return false;
                 }
                 this.loading = true;
-                var i, data = '';
+                let i, data = '';
                 for (i in this.select) {
                     data += this.select[i].id + ',';
                 }
-                this.getData('http://mini.com/insertSite', {id: data}, 'POST', function (response) {
+                this.getData('insertSite', {id: data}).then(response => {
                     if (response === 1) {
                         for (i in this.select) {
                             this.site[this.select[i].siteIndex].selected = 1;
                         }
                         this.select = [];
                         this.loading = false;
-                        alert('选座成功');
                     } else {
-                        alert('选座失败');
+                        window.alert('选座失败');
                     }
-                }.bind(this))
+                });
             }
         }
     }
