@@ -92,6 +92,7 @@
                         this.loading = false;
                     } else {
                         window.alert('选座失败');
+                        return;
                     }
                 });
             }
