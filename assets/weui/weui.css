@@ -11,6 +11,8 @@ body {
   line-height: 1.6;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
+.hd{padding:2em 0}
+.page_title{text-align:center;font-size:34px;color:#3cc51f;font-weight:400;margin:0 15%}
 * {
   margin: 0;
   padding: 0;
@@ -56,63 +58,63 @@ a {
 .weui_icon_circle:before {
   content: "\EA01";
 }
-/* '©£' */
+/* 'ï¿½ï¿½' */
 .weui_icon_download:before {
   content: "\EA02";
 }
-/* '©£' */
+/* 'ï¿½ï¿½' */
 .weui_icon_info:before {
   content: "\EA03";
 }
-/* '©£' */
+/* 'ï¿½ï¿½' */
 .weui_icon_safe_success:before {
   content: "\EA04";
 }
-/* '©£' */
+/* 'ï¿½ï¿½' */
 .weui_icon_safe_warn:before {
   content: "\EA05";
 }
-/* '©£' */
+/* 'ï¿½ï¿½' */
 .weui_icon_success:before {
   content: "\EA06";
 }
-/* '©£' */
+/* 'ï¿½ï¿½' */
 .weui_icon_success_circle:before {
   content: "\EA07";
 }
-/* '©£' */
+/* 'ï¿½ï¿½' */
 .weui_icon_success_no_circle:before {
   content: "\EA08";
 }
-/* '©£' */
+/* 'ï¿½ï¿½' */
 .weui_icon_waiting:before {
   content: "\EA09";
 }
-/* '©£' */
+/* 'ï¿½ï¿½' */
 .weui_icon_waiting_circle:before {
   content: "\EA0A";
 }
-/* '©£' */
+/* 'ï¿½ï¿½' */
 .weui_icon_warn:before {
   content: "\EA0B";
 }
-/* '©£' */
+/* 'ï¿½ï¿½' */
 .weui_icon_info_circle:before {
   content: "\EA0C";
 }
-/* '©£' */
+/* 'ï¿½ï¿½' */
 .weui_icon_cancel:before {
   content: "\EA0D";
 }
-/* '©£' */
+/* 'ï¿½ï¿½' */
 .weui_icon_search:before {
   content: "\EA0E";
 }
-/* '©£' */
+/* 'ï¿½ï¿½' */
 .weui_icon_clear:before {
   content: "\EA0F";
 }
-/* '©£' */
+/* 'ï¿½ï¿½' */
 [class^="weui_icon_"]:before,
 [class*=" weui_icon_"]:before {
   margin: 0;

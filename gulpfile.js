@@ -16,7 +16,7 @@ var livereload = require('gulp-livereload');
 //});
 
 gulp.task('minify', function () {
-	return gulp.src('assets/weui/css/*.css').pipe(concat('index.css')).pipe(minifyCss()).pipe(rename('index.css')).pipe(gulp.dest('dist')).pipe(livereload());
+	return gulp.src('assets/weui/*.css').pipe(concat('index.css')).pipe(minifyCss()).pipe(rename('index.css')).pipe(gulp.dest('dist')).pipe(livereload());
 });
 
 //gulp.task('watch', function () {

@@ -38,13 +38,14 @@
         },
         mounted () {
             setInterval(() => this.checkSelected(), 5000);
+            console.log('vue');
         },
         methods: {
             getData (url, data) {
                 let deferred = Q.defer();
                 jQuery.ajax({
                     type: data ? 'POST' : 'GET',
-                    url: 'http://minisite.com/' + url,
+                    url: 'http://mini.com/' + url,
                     data: data || {},
                     dataType: 'json',
                     success: deferred.resolve,

@@ -5,7 +5,7 @@ var path = require('path');
 var webpack = require('webpack');
 var HtmlWebpackPlugin = require('html-webpack-plugin');
 var ExtractTextPlugin = require('extract-text-webpack-plugin');
-var framework = (['avalon', 'vue', 'react', 'react/Flux', 'react/Redux'])[3];
+var framework = (['avalon', 'vue', 'react', 'react/Flux/TodoList', 'react/Redux'])[2];
 
 module.exports = {
 	entry: {
