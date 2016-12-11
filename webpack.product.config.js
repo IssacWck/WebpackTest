@@ -5,7 +5,7 @@ var path = require('path');
 var webpack = require('webpack');
 var HtmlWebpackPlugin = require('html-webpack-plugin');
 var ExtractTextPlugin = require('extract-text-webpack-plugin');
-var framework = (['avalon', 'vue', 'react'])[2];
+var framework = (['avalon', 'vue', 'react', 'reacr/Flux'])[3];
 
 module.exports = {
 	entry: {
@@ -24,10 +24,10 @@ module.exports = {
 			{
 				test: /\.js$/,
 				exclude: /node_modules|avalon/,
+				loader: 'babel',
 				query: {
 					presets: ['es2015', 'react', 'stage-0']
-				},
-				loader: 'babel'
+				}
 			},
 			{
 				test: /\.css$/,
@@ -48,7 +48,7 @@ module.exports = {
 		require('autoprefixer')
 	],
 	resolve: {
-		extensions: ['.js', '', '.css', '.vue'],
+		extensions: ['.js', '', '.css', '.vue', '.jsx'],
 		alias: {
 			'jQuery': path.resolve(__dirname, 'assets/jQuery.js'),
 			'avalon': path.resolve(__dirname, 'assets/avalon.js'),

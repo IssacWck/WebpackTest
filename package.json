@@ -10,12 +10,14 @@
     "build": "webpack --config ./webpack.product.config.js --progress"
   },
   "dependencies": {
-    "webpack": "^1.12.9",
-    "react": "^15.3.2",
-    "react-dom": "^15.3.2",
-    "vue": "^2.0.1",
+    "babel-core": "^6.20.0",
+    "babel-loader": "^6.2.9",
+    "react": "^15.4.1",
+    "react-dom": "^15.4.1",
+    "vue": "^2.1.4",
     "vue-resource": "^1.0.3",
-    "vue-router": "^2.0.2"
+    "vue-router": "^2.0.2",
+    "webpack": "^1.14.0"
   },
   "devDependencies": {
     "autoprefixer": "^6.5.3",
@@ -33,6 +35,7 @@
     "css-loader": "^0.25.0",
     "extract-text-webpack-plugin": "^1.0.1",
     "file-loader": "^0.9.0",
+    "flux": "^3.1.0",
     "formidable": "^1.0.17",
     "gulp": "^3.9.1",
     "gulp-clean": "0.3.1",
@@ -61,12 +64,15 @@
     "html-webpack-plugin": "^2.24.1",
     "jshint": "^2.9.2",
     "json-loader": "^0.5.4",
+    "jsx-loader": "^0.13.2",
     "mocha": "^2.4.5",
+    "object-assign": "^4.1.0",
     "plur": "^2.1.2",
     "postcss-loader": "^1.1.1",
     "q": "^1.4.1",
     "react-hot-loader": "^3.0.0-beta.6",
     "react-transform-hmr": "^1.0.4",
+    "redux": "^3.6.0",
     "resolve-from": "^2.0.0",
     "should": "^8.3.1",
     "style-loader": "^0.13.1",
