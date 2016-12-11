@@ -4,7 +4,9 @@
 import { Dispatcher } from 'flux';
 import Store from './Store';
 
-Dispatcher.register(action => {
+const AppDispatcher = new Dispatcher();
+
+AppDispatcher.register(action => {
 	switch (action.actionType) {
 		case 'ADD_NEW_ITEM':
 			Store.addNewItemHandler(action.text);
@@ -15,4 +17,4 @@ Dispatcher.register(action => {
 	}
 });
 
-export default Dispatcher;
+export default AppDispatcher;

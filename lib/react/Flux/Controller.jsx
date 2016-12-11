@@ -7,16 +7,19 @@ import Store from './Store';
 import Buttons from './Button';
 
 class Controller extends React.Component {
-	getInitialState () {
-		return {
-			items: Store.getAll()
-		};
+	constructor () {
+		super();
+		this._onChange = this._onChange.bind(this);
+	}
+
+	state = {
+		items: Store.getAll()
 	}
 
 	componentDidMount () {
 		Store.addChangeListener(this._onChange);
 	}
-
+	
 	componentWillUnmount () {
 		Store.removeChangeListener(this._onChange);
 	}

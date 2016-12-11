@@ -5,7 +5,7 @@ var path = require('path');
 var webpack = require('webpack');
 var HtmlWebpackPlugin = require('html-webpack-plugin');
 var ExtractTextPlugin = require('extract-text-webpack-plugin');
-var framework = (['avalon', 'vue', 'react', 'reacr/Flux'])[3];
+var framework = (['avalon', 'vue', 'react', 'react/Flux', 'react/Redux'])[3];
 
 module.exports = {
 	entry: {
@@ -22,7 +22,7 @@ module.exports = {
 				loader: "json"
 			},
 			{
-				test: /\.js$/,
+				test: /\.js[x]?$/,
 				exclude: /node_modules|avalon/,
 				loader: 'babel',
 				query: {
@@ -50,10 +50,10 @@ module.exports = {
 	resolve: {
 		extensions: ['.js', '', '.css', '.vue', '.jsx'],
 		alias: {
-			'jQuery': path.resolve(__dirname, 'assets/jQuery.js'),
-			'avalon': path.resolve(__dirname, 'assets/avalon.js'),
-			'Controller': path.resolve(__dirname, 'lib/' + framework + '/controller.js'),
-			'vue': 'vue/dist/vue.js'
+			jQuery: path.resolve(__dirname, 'assets/jQuery.js'),
+			avalon: path.resolve(__dirname, 'assets/avalon.js'),
+			Controller: path.resolve(__dirname, 'lib/' + framework + '/controller.js'),
+			vue: 'vue/dist/vue.js'
 		}
 	},
 	plugins: [
@@ -62,7 +62,7 @@ module.exports = {
 			template: path.resolve(__dirname, 'lib/template.html')
 		}),
 		new webpack.optimize.OccurenceOrderPlugin(),
-		new webpack.optimize.UglifyJsPlugin(),
+		//new webpack.optimize.UglifyJsPlugin(),
 		new ExtractTextPlugin('[name].css'),
 		new webpack.optimize.CommonsChunkPlugin('common.js'),
 		new webpack.DefinePlugin({

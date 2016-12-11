@@ -7,7 +7,7 @@ var framework = (['avalon', 'vue', 'react'])[0];
 module.exports = {
 	devtools: 'eval-source-map',
 	entry: {
-		index: path.join(__dirname, '/lib/' + framework + '/index.js')
+		index: path.join(__dirname, '/lib/' + framework + '/index.jsx')
 	},
 	output: {
 		path: path.join(__dirname, '/dist/'),

@@ -6,6 +6,6 @@ import ReactDom from 'react-dom';
 import Controller from './Controller';
 
 ReactDom.render(
-	<Controller />,
+	<Controller/>,
 	document.getElementById('controller')
 );
