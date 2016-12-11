@@ -45,7 +45,7 @@
                 let deferred = Q.defer();
                 jQuery.ajax({
                     type: data ? 'POST' : 'GET',
-                    url: 'http://mini.com/' + url,
+                    url: 'http://minisite.com/' + url,
                     data: data || {},
                     dataType: 'json',
                     success: deferred.resolve,
