@@ -10,7 +10,7 @@ AppDispatcher.register(action => {
 	switch (action.actionType) {
 		case 'ADD_NEW_ITEM':
 			Store.addNewItemHandler(action.text);
-			Store.emitChange();
+			// Store.emitChange();
 			break;
 		default:
 			break;

@@ -17,11 +17,12 @@ const Store = assign({}, EventEmitter.prototype, {
         return this.data[key];
     },
 
-	getSite () {
+	getSite (callback) {
 		this.httpRequest('getSite').then(response => {
 			this.data.site = response;
 			this.data.loading = false;
-			this.emit('getSite');
+			// this.emit('getSite');
+			callback();
 		});
 	},
 
@@ -65,7 +66,7 @@ const Store = assign({}, EventEmitter.prototype, {
 				this.emitChange('submit');
 			} else {
 				alert('选座失败');
-				this.emitChange('submit');
+				this.removeChangeListener('submit');
 				return;
 			}
 		});

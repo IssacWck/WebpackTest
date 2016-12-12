@@ -13,6 +13,7 @@ const Store = assign({}, EventEmitter.prototype, {
 
 	addNewItemHandler (text) {
 		this.items.push(text);
+		this.emitChange();
 	},
 
 	emitChange () {

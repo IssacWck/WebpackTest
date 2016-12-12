@@ -9,7 +9,9 @@ const AppDispatcher = new Dispatcher();
 AppDispatcher.register(action => {
 	switch (action.actionType) {
 		case 'GET_SITE':
-			Store.getSite();
+			Store.getSite(() => {
+				Store.emitChange('getSite');
+			});
 			break;
 		case 'CHECK_SELECTED':
 			Store.checkSelected();

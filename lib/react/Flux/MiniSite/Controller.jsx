@@ -78,14 +78,14 @@ class Controller extends React.Component {
 	//	this.setState({ loading: Store.getData('loading') }, () => Store.removeChangeListener('loading'));
 	//}
 
-	//selectSite (el, index) {
-	//	if (el.selected === 1) {
-	//		return false;
-	//	}
-	//	Store.addChangeListener('selectSite', this.selectAfter);
-	//	Actions.selectSite(el, index);
-	//}
-	//
+	selectSite (el, index) {
+		if (el.selected === 1) {
+			return false;
+		}
+		Store.addChangeListener('selectSite', this.selectAfter);
+		Actions.selectSite(el, index);
+	}
+	
 	//close (index, siteIndex) {
 	//	Store.addChangeListener('close', this.closeAfter);
 	//	Actions.close(index, siteIndex);
