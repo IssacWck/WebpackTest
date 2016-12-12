@@ -5,7 +5,7 @@ var path = require('path');
 var webpack = require('webpack');
 var HtmlWebpackPlugin = require('html-webpack-plugin');
 var ExtractTextPlugin = require('extract-text-webpack-plugin');
-var framework = (['avalon', 'vue', 'react', 'react/Flux/TodoList', 'react/Redux'])[1];
+var framework = (['avalon', 'vue', 'react', 'react/Flux/TodoList', 'react/Flux/MiniSite'])[4];
 
 module.exports = {
 	entry: {
@@ -13,7 +13,8 @@ module.exports = {
 	},
 	output: {
 		path: path.resolve(__dirname, 'dist'),
-		filename: '[name]-[hash].js'
+		//filename: '[name]-[hash].js'
+		filename: '[name].js'
 	},
 	module: {
 		loaders: [
@@ -53,6 +54,7 @@ module.exports = {
 			jQuery: path.resolve(__dirname, 'assets/jQuery.js'),
 			avalon: path.resolve(__dirname, 'assets/avalon.js'),
 			Controller: path.resolve(__dirname, 'lib/' + framework + '/controller.js'),
+			weui: path.resolve(__dirname, 'assets/weui'),
 			vue: 'vue/dist/vue.js'
 		}
 	},
